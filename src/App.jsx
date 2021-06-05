@@ -8,6 +8,7 @@ import { Robots } from "./components/Robots";
 /**
  * Imports styling
  */
+import "animate.css";
 import "./App.css";
 
 /**
