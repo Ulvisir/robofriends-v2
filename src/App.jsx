@@ -3,6 +3,7 @@
  */
 import { Container } from "./components/Container";
 import { AppTitle } from "./components/AppTitle";
+import { Robots } from "./components/Robots";
 
 /**
  * Imports styling
@@ -16,6 +17,7 @@ const App = () => {
   return (
     <Container>
       <AppTitle />
+      <Robots />
     </Container>
   );
 };
