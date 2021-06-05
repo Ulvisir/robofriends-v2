@@ -1,11 +1,6 @@
 import React from "react";
 
 /**
- * Imports mock data
- */
-import { robots } from "./Robots.mock";
-
-/**
  * Imports components
  */
 import { Card } from "../Card";
@@ -15,7 +10,8 @@ import { Card } from "../Card";
  */
 import "./Robots.css";
 
-const Robots = () => {
+const Robots = (props) => {
+  const { robots } = props;
   /**
    * Handles rendering the robots
    */
